@@ -4,4 +4,3 @@ Solutions to problems I've gone through in various competitive programming websi
 Website profiles:<br>
 -<b>https://codeforces.com/submissions/Dunix</b><br>
 -<b>https://cses.fi/user/80491</b><br>
--<b>https://www.hackerrank.com/22dunix</b><br>
