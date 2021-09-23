@@ -8,7 +8,7 @@ struct Dragon{
 };
 
 bool comp(Dragon a, Dragon b){
-    return a.health>b.health;
+    return a.health<b.health;
 }
 
 int main(){
@@ -21,12 +21,12 @@ int main(){
     sort(a, a+n, comp);
 
     for(int i = 0; i < n; i++){
-        if(a[i].health>s){
+        if(a[i].health>=s){
             s=-1;
             cout<<"NO";
             break;
         }
-        else ws+=a[i].bonus;
+        else s+=a[i].bonus;
     }
     if(s>-1) cout<<"YES";
     return 0;
