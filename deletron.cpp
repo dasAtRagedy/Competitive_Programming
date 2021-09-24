@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<stdlib.h>
 using namespace std;
 int main(){
     system("del /Q \"CSES Problemset\\*.o\"");
